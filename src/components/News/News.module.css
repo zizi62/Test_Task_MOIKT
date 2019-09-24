@@ -1,0 +1,25 @@
+.news {
+    height: 100vh;
+    background-color:#4D6999;
+    padding: 60px;
+    position: relative;
+}
+.newsBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsItem {
+    background-color: #9EA3B0;
+    max-width: 60%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.newsCount{
+    display: block;
+    padding: 20px;
+    background-color: #9EA3B0;
+    max-width: 60%;
+    font-weight: 600;
+}

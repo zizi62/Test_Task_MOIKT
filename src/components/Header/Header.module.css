@@ -1,0 +1,28 @@
+.header {
+    background-color: #264F87;
+    padding: 60px;
+  
+}
+
+.nav{
+    float: right;
+
+}
+
+.link{
+    display: inline-flex;
+    justify-content: space-around;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.activeLink {
+    color: #FFD64D;
+    font-weight: 700;
+}

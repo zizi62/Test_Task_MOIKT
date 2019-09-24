@@ -1,0 +1,40 @@
+.login {
+    height: 100vh;
+    background-color: #4D6999;
+    padding: 60px;
+}
+
+.loginForm{
+    width: 500px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.loginInput{
+    margin-bottom: 20px;
+}
+
+.password, .email{
+box-sizing: border-box;
+width: 300px;
+padding: 8px;
+}
+
+.loginBtn{
+    width: 300px;
+    padding: 8px;
+    background-color:#FFD64D;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+
+}
+
+.errorMessage{
+    font-weight: 700;
+    color: red;
+}
